@@ -5,6 +5,14 @@
 * Browsers: last 4 version
 */
 
+/*
+Colors used
+
+Text Color (Dark Gray): #2b2b2b;
+Primary Color (Purple): #357b70;
+Secondary Color (Orange): #e0b354;
+ */
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -40,6 +48,7 @@ a {
 a:visited {
   /* visited link */
   color: #05676e;
+  text-decoration: none;
 }
 
 a:hover, a:hover {
@@ -50,6 +59,7 @@ a:hover, a:hover {
 a:active {
   /* selected link */
   color: #489c79;
+  text-decoration: none;
 }
 
 button {
@@ -165,7 +175,7 @@ button__secondary
 }
 
 .grid__item {
-  background-color: lightgray;
+  background-color: #D3D3D3;
   padding: 10px;
   width: auto;
 }
